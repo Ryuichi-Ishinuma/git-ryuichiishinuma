@@ -1,0 +1,92 @@
+
+.about {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+
+    .wrapper {
+        margin: 0 15%;
+        padding: 9rem 0 6rem;
+        .about__title {
+            padding-bottom: 5rem;
+            text-align: center;
+            h2 {
+                margin: 0 auto;
+                width: 195px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .about__content {
+            .about__profile {
+                margin-bottom: 6rem;
+                .profile__title {
+                    margin-bottom: 3rem;
+                    width: 192.5px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .profile__content {
+                    display: flex;
+
+                    .profile__image {
+                        margin-right: 7rem;
+                        max-width: 250px;
+                        max-height: 250px;
+                        width: 250px;
+                        height: 250px;
+    
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .profile__text {
+                        p {
+                            letter-spacing: 0.05em;
+                            line-height: 1.75;
+                        }
+                        a {
+                            opacity: 1;
+                            text-decoration: underline;
+                        }
+                        a:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+            .about__interests {
+                .interests__title {
+                    margin-bottom: 3rem;
+                    width: 240px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .interests__content {
+                    display: block;
+
+                    .interests__text {
+                        p,span {
+                            letter-spacing: 0.05em;
+                            line-height: 1.75;
+                        }
+                        li {
+                            letter-spacing: 0.05em;
+                            line-height: 1.75;
+                        }
+                        a {
+                            opacity: 1;
+                            text-decoration: underline;
+                        }
+                        a:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

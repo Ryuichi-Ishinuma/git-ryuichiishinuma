@@ -1,0 +1,37 @@
+
+
+.works-detail {
+    margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+    .wrapper {
+        margin: 0 10%;
+        padding: 9rem 0 6rem;
+        .works-detail__title {
+            color: $mainColor;
+            font-family: $fontFamily;
+            font-weight: 400;
+            font-size: 4rem;
+            letter-spacing: 0.1em;
+            padding-bottom: 5rem;
+            text-align: center;
+            transform: scale(1.05, 0.95);
+        }
+        .works-detail__img {
+            margin-bottom: 2rem;
+            height: auto;
+            width: 100%;
+        }
+        p {
+            font-family: $fontFamily;
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 0.1em;
+        }
+        .subinfo {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    }
+}
